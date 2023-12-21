@@ -3,10 +3,10 @@
 const RADIO_NAME = 'Classic_3D_Audio';
 
 // SELECT ARTWORK PROVIDER, ITUNES, DEEZER & SPOTIFY  eg : spotify 
-var API_SERVICE = 'SPOTIFY';
+var API_SERVICE = 'DEEZER';
 
 // Change Stream URL Here, Supports, ICECAST, ZENO, SHOUTCAST, RADIOJAR and any other stream service.
-const URL_STREAMING = 'https://s3.joeycast.com:1880/rockclassic3D';
+const URL_STREAMING = 'https://binaulab.streamafrica.net:1040/RockClassicBrasil3D';
 
 //API URL / if you use MEDIA CP, CHANGE THIS TO : https://api.streamafrica.net/metadata/mediacp.php?url='+MEDIACP_JSON_URL
 const API_URL = 'https://api.streamafrica.net/metadata/index.php?z='+URL_STREAMING
